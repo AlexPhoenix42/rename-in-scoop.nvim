@@ -24,7 +24,7 @@ A tiny Neovim plugin that lets you rename a symbol **only inside the function yo
 
 ```lua
 {
-  "yourname/rename-in-scoop.nvim",
+  "alexphoenix42/rename-in-scoop.nvim",
   config = function()
     require("rename_in_scoop").setup()
   end,
