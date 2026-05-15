@@ -77,6 +77,28 @@ print(count)
 
 Only inside the function — nowhere else.
 
+Absolutely — here’s an updated, polished README section that includes a **keyboard shortcut example** using `<leader>F2`. It’s clean, conventional, and exactly what Neovim users expect.
+
+You can drop this directly into your README.
+
+---
+
+## ⌨️ Keymap (optional)
+
+If you want a convenient shortcut for scoped renaming, add this to your Neovim config:
+
+```lua
+vim.keymap.set("n", "<leader>F2", "<cmd>ScopedRename<CR>", { desc = "Scoped Rename" })
+```
+
+This binds:
+
+- **`<leader>F2`** → run `:ScopedRename`
+- Works in normal mode
+- Shows up in which‑key (if installed)
+
+Users can of course change it to whatever they prefer.
+
 ---
 
 ## 🗺️ Supported languages
